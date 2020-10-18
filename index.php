@@ -70,7 +70,7 @@
         $servername = "localhost";
         $username = "root";
         $password = "";
-        $dbname = "mydb";
+        $dbname = "crud";
           $mysql = new mysqli($servername, $username, $password, $dbname) or die("Connection failed: " . $conn->connect_error);
 
           $result = $mysql->query("SELECT * FROM stud") or die($mysql->error());

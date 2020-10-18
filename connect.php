@@ -9,7 +9,7 @@ $update=false;
 $servername = "localhost";
 $username = "root";
 $password = "";
-$dbname = "mydb";
+$dbname = "crud";
 
 
 // Create connection $ Check COnnection
